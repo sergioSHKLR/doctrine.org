@@ -1,6 +1,6 @@
 ---
 title: 📃 1. Explanatory note
-layout: 0-generic
+layout: 0-gen
 ---
 
 # 📃 X.XX Explanatory note

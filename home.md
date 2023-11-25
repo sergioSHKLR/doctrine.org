@@ -5,15 +5,15 @@ layout: 0-gen
 
 # 🏠 Home
 
-Inspirado em outras iniciativas de educação e comunicação digital, criamos esta alternativa que combina fontes e ferramentas dispersas de modo a permitir ao usuário uma plataforma inédita de estudos integrados.
+Inspired in other initiatives of digital education and communication, we created this alternative which combines dispersed sources and tools providing the user with a first-of-its-kind integrated study platform.
 
-Nossa interface é composta de três colunas, que são seletivamente mostradas de acordo com a largura do dispositivo em que é visualizada. Assim sendo, em telas largas você verá as 3 colunas, em telas médias, 2 colunas e em telas pequenas, somente 1 coluna.
+Our interface is composed of three columns which are selectively displayed according to the width of the device it is being used. This way you'll see three columns in large screens, two in medium screens, and only one on small screens.
 
-Consulte a página <kbd>📋 Informações</kbd> para ficar a par dos padrões utilizados em nosso projeto.
+Read the <kbd>📋 Info</kbd> page to get to know the standards utilized in our project.
 
-Caso tenha alguma dúvida, entre em contato utilizando o botão do chat (canto inferior direito). <img src="./framework/crisp-logo.svg" width="30" height="30" alt="botão do crisp chat" style="all: unset; height: 30px; vertical-align: text-bottom;">
+In case of any doubts, please contact us via the chat button (lower right corner) <img src="./framework/crisp-logo.svg" width="30" height="30" alt="botão do crisp chat" style="all: unset; height: 30px; vertical-align: text-bottom;">
 
-Ficaríamos gratos com o seu feedback!
+We'd thankful for your feedback!
 
 🙏🏼 So be it!
 

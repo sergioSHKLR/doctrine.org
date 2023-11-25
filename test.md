@@ -1,5 +1,5 @@
 ---
-layout: 0-generic
+layout: 0-gen
 ---
 
 > 👻 ▸ Mensagem (Spirit)

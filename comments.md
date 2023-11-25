@@ -1,6 +1,6 @@
 ---
 title: Comentários
-layout: 0-generic
+layout: 0-gen
 ---
 
 # Comentários

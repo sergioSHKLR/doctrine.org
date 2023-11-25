@@ -1,6 +1,6 @@
 ---
 title: 📋 Information
-layout: 0-generic
+layout: 0-gen
 ---
 
 # 📋 Information
@@ -99,7 +99,7 @@ Nosso projeto integra ferramentas geralmente achadas em eReaders (dicionário, t
 - [Bible.com](https://www.bible.com/pt){:target="ext"}
 - [A Igreja de Jesus Cristo dos Santos dos Últimos Dias](https://www.churchofjesuschrist.org/?lang=por){:target="ext"}
 - [O Escolhido, Série](https://www.youtube.com/@thechosentvbr){:target="_blank"}
-- [Google Dictionary](https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja?hl=pt-br){:target="_blank"}
+- [Google Dictionary](https://chrome.google.com/webstore/detail/google-dictionary-by-goog/mgijmajocgfcbeboacabfgobmjgjcoja?hl=en-US){:target="_blank"}
 - [Hypothes.is](https://web-hypothes-is.translate.goog/everyone/?_x_tr_sl=es&_x_tr_tl=pt&_x_tr_hl=en&_x_tr_pto=wapp){:target="_blank"}
 - [Whereby](https://whereby.com/){:target="ext"}
 - [Crisp](https://crisp.chat/pt/){:target="_blank"}

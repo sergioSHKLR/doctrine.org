@@ -1,6 +1,6 @@
 ---
 title: 📃 Nota explicativa
-layout: 0-generic
+layout: 0-gen
 ---
 
 # 📃 Nota explicativa

@@ -1,12 +1,12 @@
 {
   "id": "/",
-  "scope": "https://doutrina.org/",
+  "scope": "https://en.doutrina.org/",
   "name": "doutrina.org",
   "display": "fullscreen",
-  "start_url": "https://doutrina.org/",
+  "start_url": "https://en.doutrina.org/",
   "short_name": "doutrina",
   "theme_color": "#4ec1f5",
-  "description": "Uma plataforma inédita de estudos integrados; permitindo a consulta de fontes externas sem a necessidade de sair da janela original.",
+  "description": "a one-of-a-kind integrated study platform",
   "orientation": "any",
   "background_color": "#222222",
   "related_applications": [],
@@ -28,23 +28,23 @@
     "enctype": "application/x-www-form-urlencoded",
     "params": {
       "title": "doutrina.org",
-      "url": "https://doutrina.org"
+      "url": "https://en.doutrina.org"
     }
   },
   "scope_extensions": [
     {
-      "origin": "doutrina.org/*"
+      "origin": "en.doutrina.org/*"
     }
   ],
   "icons": [
     {
-      "src": "https://doutrina.org/framework/pwa/maskable.png",
+      "src": "https://en.doutrina.org/framework/pwa/maskable.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "https://doutrina.org/framework/pwa/favicon.png",
+      "src": "https://en.doutrina.org/framework/pwa/favicon.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
@@ -66,8 +66,8 @@
   ],
   "features": [
     "Cross Platform",
-    "rápido",
-    "simples"
+    "fast",
+    "simple"
   ],
   "categories": [
     "education"

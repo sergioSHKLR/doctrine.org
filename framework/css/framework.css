@@ -1,27 +1,10 @@
-/*---------- FRAMEWORK ----------*/
-html, iframe, img {
-    overflow: clip !important
-}
-
-#col1-head {
-    background-color: transparent;
-    border: none;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    height: 50px;
-    left: 0;
-    padding-left: 10px;
-    padding-top: 10px;
-    position: fixed;
-    top: 0;
-    width: 250px;
-}
+/* START FRAMEWORK */
 
 #col1-body {
-    background-color: #fff;
+    -ms-overflow-style: none;
+    background-color: #4ec1f51a;
     border-collapse: collapse;
     border-right: 1px solid #59595980;
-    border-top: 1px solid #59595980;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
     font-size: 14px;
@@ -32,15 +15,22 @@ html, iframe, img {
     overflow-y: scroll;
     overscroll-behavior: contain;
     padding-left: 15px;
+    padding-top: 5px;
     position: fixed;
     scroll-behavior: smooth;
+    scrollbar-width: none;
     top: 50px;
     width: 250px;
     z-index: 1
 }
 
+#col1-body::-webkit-scrollbar {
+    display: none
+}
+
 #col1-brand,
 #col2-brand {
+    background-color: transparent;
     border: none;
     border-collapse: collapse;
     border-radius: 5px;
@@ -53,6 +43,57 @@ html, iframe, img {
     padding-left: 0;
     position: relative;
     text-decoration: none
+}
+
+#col1-head {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #59595980;
+    box-shadow: 0 5px 3px -3px #00000030;
+    left: 0;
+    padding: 0 0 0 10px;
+    width: 300px;
+    z-index: 3
+}
+
+#col1-head a:any-link,
+#col1-body a:any-link,
+#col2-head a:any-link,
+#col3-head a:any-link {
+    color: currentColor;
+    text-decoration: none
+}
+
+#col1-head,
+#col1-body,
+#col2-head,
+#col3-head {
+    background-color: #4ec1f51a
+}
+
+#col2-body {
+    background-color: #ffff0005
+}
+
+#col2-body,
+#col4-body {
+    border-collapse: collapse;
+    box-shadow: inset 1px 1px 25px 6px #f6eee3ff;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: 300;
+    height: calc(100vh - (50px));
+    left: 300px;
+    line-height: 1.5;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    overscroll-behavior: contain;
+    padding: 0 55px;
+    position: fixed;
+    scroll-behavior: smooth;
+    top: 50px;
+    width: calc((100vw - 324px) * .5)
 }
 
 #col2-brand {
@@ -68,93 +109,38 @@ html, iframe, img {
 }
 
 #col2-head {
+    border-bottom: 1px solid #59595980;
     box-shadow: 0 5px 3px -3px #00000030;
-}
-
-#col2-head {
-    background-color: transparent;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    height: 50px;
-    left: 250px;
-    padding-right: 20px;
-    padding-top: 3px;
-    position: fixed;
-    top: 0;
-    width: calc((100vw - 273px) * .5)
-}
-
-#col2-head button {
-    position: relative;
-    top: 2px
-}
-
-#col2-body {
-    background-color: transparent;
-    border-collapse: collapse;
-    border-top: 1px solid #59595980;
-    box-sizing: border-box;
-    font-family: 'Roboto Slab', serif;
-    font-size: 16px;
-    font-weight: 300;
-    height: calc(100vh - (50px));
-    left: 250px;
-    line-height: 1.5;
-    overflow-x: hidden;
-    overflow-y: scroll;
-    overscroll-behavior: contain;
-    padding: 0 55px 0 55px;
-    position: fixed;
-    scroll-behavior: smooth;
-    top: 50px;
-    width: calc((100vw - 273px) * .5);
-    box-shadow: inset 1px 1px 25px 6px rgba(246, 238, 227, 1);
-}
-
-#col3-head {
-    background-color: transparent;
-    border: none;
-    border-collapse: collapse;
-    box-sizing: border-box;
-    height: 50px;
-    padding-top: 10px;
-    position: fixed;
-    right: 23px !important;
-    top: 0;
-    width: calc((100vw - 273px) * .5)
-}
-
-#col3-head button {
-    position: relative;
-    top: -5px
+    left: 300px;
+    padding: 0 17px 0 0;
+    width: calc((100vw - 324px) * .5);
+    z-index: 3
 }
 
 #col3-body {
-    background-color: transparent;
     border-collapse: collapse;
     border-left: 1px solid #59595980;
-    border-top: 1px solid #59595980;
     box-sizing: border-box;
     color: #000;
     height: calc(100vh - (50px));
     position: fixed;
-    right: 23px !important;
+    right: 24px;
     top: 50px;
-    width: calc((100vw - 273px) * .5);
+    width: calc((100vw - 324px) * .5)
 }
 
-#col1-head,
-#col2-head,
 #col3-head {
-    background-color: #4ec1f51a;
+    border: none;
+    border-bottom: 1px solid #59595980;
+    box-shadow: 0 5px 3px -3px #00000030;
+    padding: 0 20px 0 10px;
+    right: 24px;
+    width: calc((100vw - 324px) * .5);
+    z-index: 3
 }
 
-#col1-body {
-    background-color: #4ec1f51a;
-}
-
-#col2-body {
-    background-color: #ffff0005;
+#col3-head a {
+    padding: 10px
 }
 
 #ext-iframe {
@@ -163,43 +149,53 @@ html, iframe, img {
     width: 100%
 }
 
+#hypo-label {
+    font-family: sans;
+    font-size: 12px;
+    position: absolute;
+    right: -26px;
+    top: 165px;
+    transform: rotate(270deg);
+    vertical-align: middle;
+    vertical-align: middle
+}
+
 #israel {
     border-collapse: collapse;
     bottom: -10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 #0003 0 6px 20px 0 #00000030;
     box-sizing: border-box;
     left: -50px;
     position: fixed;
     transform: rotate(45deg);
     width: 141px;
-    z-index: 99
+    z-index: 3
 }
 
-button {
-    background-color: transparent;
-    border: none;
+.cd {
+    cursor: default
+}
+
+.fr {
+    float: right
+}
+
+.head {
     border-collapse: collapse;
-    border-radius: 50%;
     box-sizing: border-box;
-    color: currentColor;
-    cursor: pointer;
-    font-size: 24px;
-    justify-content: center;
-    margin-left: 10px;
-    outline: 0;
-    padding: 6px 5px 0 0;
-    text-align: center
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    top: 0
 }
 
-a:any-link {
-    outline: 0
+.hide {
+    display: none
 }
 
-.label {
-    font-size: 12px;
-    left: 5px;
-    position: relative;
-    top: -9px
+.icon {
+    font-family: 'Material Symbols Outlined';
+    padding: 0 2px
 }
 
 .sidebar-heading {
@@ -209,40 +205,113 @@ a:any-link {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    width: 70%
+    width: 90%
 }
 
-.icon {
-    font-family: 'Material Symbols Outlined';
-    padding: 0 2px;
-}
-
-.icon:hover {
-    outline: 3px solid orange;
-    border-radius: 50%;
-}
-
-.fr {
-    float: right
-}
-
-.hide {
-    display: none
-}
-
-#col1-head a:any-link,
-#col1-body a:any-link,
-#col2-head a:any-link,
-#col3-head a:any-link {
+a#col3-link1-a,
+a#col3-link2-a,
+a#col3-link3-a,
+a#col3-link4-a {
+    bottom: 2px;
     color: currentColor;
-    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 24px;
+    height: 40px;
+    justify-content: center;
+    padding: 6px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 40px
+}
+
+a:active,
+a:focus {
+    background-color: inherit;
+    outline: none
+}
+
+a:any-link {
+    outline: none
+}
+
+button {
+    background-color: transparent;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    color: currentColor;
+    cursor: pointer;
+    font-size: 24px;
+    height: 50px;
+    justify-content: center;
+    outline: 0;
+    padding: 0;
+    text-align: center;
+    width: 50px
+}
+
+details summary::before {
+    content: "＋ ";
+    float: right;
+    font-weight: 700;
+    transition-duration: .15s;
+    transition-property: all
+}
+
+details,
+summary {
+    color: currentColor;
+    cursor: pointer;
+    list-style-type: none
+}
+
+details.links {
+    background-color: #f5f5f5;
+    margin: 10px;
+    padding: 10px 20px
+}
+
+details:active {
+    background-color: inherit;
+    outline: none
+}
+
+details[open] summary::before {
+    content: "＋ ";
+    font-weight: 700;
+    transform: rotate(45deg);
+    transition-duration: .15s;
+    transition-property: all
+}
+
+html,
+iframe,
+img {
+    overflow: clip
 }
 
 p.banner {
+    background-color: #ff06;
+    border-left: 4px solid #ffd700;
     color: currentColor;
-    padding: 10px;
     font-family: 'Inter';
-    background-color: #ffff0066;
-    text-align: center;
-    border-left: 4px solid gold;
+    padding: 10px;
+    text-align: center
 }
+
+span.label {
+    font-size: 10px;
+    justify-content: center;
+    text-align: center
+}
+
+summary.ff-mono {
+    width: 90%
+}
+
+summary:active {
+    background-color: inherit;
+    outline: none
+}
+
+/* END FRAMEWORK */

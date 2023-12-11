@@ -10,7 +10,7 @@ layout: 0-gen
 
 A investigação rigorosamente racional e científica de fatos que revelavam a comunicação dos homens com os Espíritos, realizada por Allan Kardec, resultou na estruturação da Doutrina Espírita, sistematizada sob os aspectos científico, filosófico e religioso.
 
-A partir de 1854 até seu falecimento, em 1869, seu trabalho foi constituído de cinco obras básicas:
+A partir de 1854 até seu falecimento, em 1869, seu trabalho foi constituído de cinco Basic Works:
 
 1. 👻 **O Livro dos Espíritos** (1857),
 
